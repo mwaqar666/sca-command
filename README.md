@@ -20,7 +20,7 @@ The documentation is under development. You are welcome to review the source cod
 ## Installation
 
 ```shell
-npm i mwaqar666/sca-command --save
+npm i sca-command --save
 ```
 
 ## Usage
