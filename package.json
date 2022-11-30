@@ -1,18 +1,31 @@
 {
   "name": "sca-command",
   "version": "0.0.1",
-  "description": "Commands for support chat application",
-  "author": "Muhammad Waqar",
-  "private": true,
-  "license": "ISC",
-  "keywords": [],
+  "homepage": "https://github.com/mwaqar666/sca-command",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwaqar666/sca-command.git"
+  },
+  "description": "Class based command library for NodeJS",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "Command Library",
+    "TypeScript Command Library",
+    "NodeJS Command Library"
+  ],
+  "author": "Muhammad Waqar",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && tsc && tsc-alias",
     "alldesk": "node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
+    "@types/validator": "^13.7.10",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
     "eslint": "^8.28.0",
@@ -24,6 +37,6 @@
   },
   "peerDependencies": {
     "dotenv": "^16.0.3",
-    "sca-core": "file:/home/mwaqar666/code/alldesk/sca-core/sca-core-0.0.1.tgz"
+    "sca-utils": "^0.0.1"
   }
 }

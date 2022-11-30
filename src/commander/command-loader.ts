@@ -1,6 +1,6 @@
 import { BaseCommand, BaseCommandProvider } from "@/base";
 import { CommandType, LoadableCommands } from "@/type";
-import { Optional } from "sca-core";
+import { Optional } from "sca-utils";
 
 export class CommandLoader {
 	private loadedCommands: Array<BaseCommand> = [];

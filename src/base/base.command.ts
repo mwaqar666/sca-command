@@ -1,6 +1,6 @@
 import { CommandArguments, KeyValueArgument } from "@/type";
 import * as process from "process";
-import { Optional } from "sca-core";
+import { Optional } from "sca-utils";
 
 export abstract class BaseCommand<T = any> {
 	public constructor(protected readonly data: T) {}
